@@ -1,0 +1,6 @@
+<h2>Cart</h2>
+<u1>
+	<% for item in @cart.items %>
+		<li><%= item.quantity %> &times; <%=h item.title %></li>
+	<% end %>	
+</u1>
